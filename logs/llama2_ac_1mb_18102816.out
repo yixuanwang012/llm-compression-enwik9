@@ -1,0 +1,683 @@
+Loading meta-llama/Llama-2-7b-hf on cuda with torch.float16
+encode tokens=1000 chunks=2 top100=98.50% tokens/s=37.67
+encode tokens=2000 chunks=3 top100=97.90% tokens/s=40.25
+encode tokens=3000 chunks=5 top100=97.37% tokens/s=41.22
+encode tokens=4000 chunks=6 top100=97.17% tokens/s=41.77
+encode tokens=5000 chunks=8 top100=97.02% tokens/s=42.12
+encode tokens=6000 chunks=10 top100=96.80% tokens/s=42.35
+encode tokens=7000 chunks=11 top100=96.59% tokens/s=42.50
+encode tokens=8000 chunks=13 top100=96.56% tokens/s=42.63
+encode tokens=9000 chunks=15 top100=96.40% tokens/s=42.73
+encode tokens=10000 chunks=17 top100=96.27% tokens/s=42.81
+encode tokens=11000 chunks=18 top100=96.27% tokens/s=42.87
+encode tokens=12000 chunks=20 top100=96.17% tokens/s=42.93
+encode tokens=13000 chunks=22 top100=96.11% tokens/s=42.97
+encode tokens=14000 chunks=24 top100=96.08% tokens/s=43.01
+encode tokens=15000 chunks=25 top100=96.04% tokens/s=43.05
+encode tokens=16000 chunks=27 top100=96.04% tokens/s=43.08
+encode tokens=17000 chunks=29 top100=95.95% tokens/s=43.10
+encode tokens=18000 chunks=30 top100=96.07% tokens/s=43.12
+encode tokens=19000 chunks=31 top100=96.01% tokens/s=43.12
+encode tokens=20000 chunks=32 top100=96.01% tokens/s=43.12
+encode tokens=21000 chunks=34 top100=96.12% tokens/s=43.13
+encode tokens=22000 chunks=35 top100=96.16% tokens/s=43.14
+encode tokens=23000 chunks=37 top100=96.20% tokens/s=43.16
+encode tokens=24000 chunks=39 top100=96.23% tokens/s=43.18
+encode tokens=25000 chunks=41 top100=96.22% tokens/s=43.20
+encode tokens=26000 chunks=44 top100=96.22% tokens/s=43.22
+encode tokens=27000 chunks=46 top100=96.26% tokens/s=43.23
+encode tokens=28000 chunks=47 top100=96.30% tokens/s=43.25
+encode tokens=29000 chunks=50 top100=96.24% tokens/s=43.26
+encode tokens=30000 chunks=52 top100=96.19% tokens/s=43.28
+encode tokens=31000 chunks=54 top100=96.21% tokens/s=43.29
+encode tokens=32000 chunks=55 top100=96.26% tokens/s=43.30
+encode tokens=33000 chunks=56 top100=96.28% tokens/s=43.29
+encode tokens=34000 chunks=58 top100=96.26% tokens/s=43.29
+encode tokens=35000 chunks=59 top100=96.23% tokens/s=43.29
+encode tokens=36000 chunks=60 top100=96.30% tokens/s=43.29
+encode tokens=37000 chunks=62 top100=96.30% tokens/s=43.29
+encode tokens=38000 chunks=64 top100=96.28% tokens/s=43.30
+encode tokens=39000 chunks=65 top100=96.31% tokens/s=43.30
+encode tokens=40000 chunks=66 top100=96.36% tokens/s=43.30
+encode tokens=41000 chunks=68 top100=96.39% tokens/s=43.30
+encode tokens=42000 chunks=69 top100=96.39% tokens/s=43.30
+encode tokens=43000 chunks=70 top100=96.38% tokens/s=43.30
+encode tokens=44000 chunks=71 top100=96.42% tokens/s=43.29
+encode tokens=45000 chunks=73 top100=96.45% tokens/s=43.29
+encode tokens=46000 chunks=74 top100=96.48% tokens/s=43.29
+encode tokens=47000 chunks=75 top100=96.53% tokens/s=43.29
+encode tokens=48000 chunks=76 top100=96.57% tokens/s=43.29
+encode tokens=49000 chunks=77 top100=96.61% tokens/s=43.28
+encode tokens=50000 chunks=78 top100=96.65% tokens/s=43.28
+encode tokens=51000 chunks=80 top100=96.68% tokens/s=43.28
+encode tokens=52000 chunks=81 top100=96.71% tokens/s=43.28
+encode tokens=53000 chunks=82 top100=96.74% tokens/s=43.28
+encode tokens=54000 chunks=84 top100=96.72% tokens/s=43.28
+encode tokens=55000 chunks=85 top100=96.72% tokens/s=43.28
+encode tokens=56000 chunks=86 top100=96.73% tokens/s=43.28
+encode tokens=57000 chunks=88 top100=96.76% tokens/s=43.28
+encode tokens=58000 chunks=89 top100=96.77% tokens/s=43.28
+encode tokens=59000 chunks=90 top100=96.79% tokens/s=43.28
+encode tokens=60000 chunks=92 top100=96.79% tokens/s=43.28
+encode tokens=61000 chunks=94 top100=96.82% tokens/s=43.28
+encode tokens=62000 chunks=95 top100=96.86% tokens/s=43.28
+encode tokens=63000 chunks=96 top100=96.89% tokens/s=43.28
+encode tokens=64000 chunks=97 top100=96.92% tokens/s=43.28
+encode tokens=65000 chunks=98 top100=96.91% tokens/s=43.28
+encode tokens=66000 chunks=100 top100=96.86% tokens/s=43.27
+encode tokens=67000 chunks=101 top100=96.85% tokens/s=43.28
+encode tokens=68000 chunks=103 top100=96.84% tokens/s=43.28
+encode tokens=69000 chunks=105 top100=96.81% tokens/s=43.28
+encode tokens=70000 chunks=106 top100=96.81% tokens/s=43.29
+encode tokens=71000 chunks=107 top100=96.81% tokens/s=43.28
+encode tokens=72000 chunks=109 top100=96.78% tokens/s=43.28
+encode tokens=73000 chunks=110 top100=96.79% tokens/s=43.28
+encode tokens=74000 chunks=112 top100=96.77% tokens/s=43.29
+encode tokens=75000 chunks=114 top100=96.77% tokens/s=43.29
+encode tokens=76000 chunks=116 top100=96.75% tokens/s=43.29
+encode tokens=77000 chunks=117 top100=96.76% tokens/s=43.30
+encode tokens=78000 chunks=119 top100=96.76% tokens/s=43.30
+encode tokens=79000 chunks=121 top100=96.74% tokens/s=43.31
+encode tokens=80000 chunks=123 top100=96.74% tokens/s=43.31
+encode tokens=81000 chunks=125 top100=96.74% tokens/s=43.31
+encode tokens=82000 chunks=127 top100=96.76% tokens/s=43.32
+encode tokens=83000 chunks=129 top100=96.75% tokens/s=43.32
+encode tokens=84000 chunks=131 top100=96.76% tokens/s=43.32
+encode tokens=85000 chunks=132 top100=96.77% tokens/s=43.33
+encode tokens=86000 chunks=134 top100=96.75% tokens/s=43.33
+encode tokens=87000 chunks=136 top100=96.76% tokens/s=43.33
+encode tokens=88000 chunks=138 top100=96.77% tokens/s=43.34
+encode tokens=89000 chunks=139 top100=96.78% tokens/s=43.34
+encode tokens=90000 chunks=141 top100=96.78% tokens/s=43.34
+encode tokens=91000 chunks=142 top100=96.78% tokens/s=43.34
+encode tokens=92000 chunks=144 top100=96.78% tokens/s=43.34
+encode tokens=93000 chunks=145 top100=96.78% tokens/s=43.34
+encode tokens=94000 chunks=147 top100=96.74% tokens/s=43.34
+encode tokens=95000 chunks=148 top100=96.75% tokens/s=43.34
+encode tokens=96000 chunks=149 top100=96.74% tokens/s=43.34
+encode tokens=97000 chunks=151 top100=96.74% tokens/s=43.34
+encode tokens=98000 chunks=153 top100=96.74% tokens/s=43.34
+encode tokens=99000 chunks=154 top100=96.74% tokens/s=43.34
+encode tokens=100000 chunks=156 top100=96.73% tokens/s=43.34
+encode tokens=101000 chunks=158 top100=96.72% tokens/s=43.35
+encode tokens=102000 chunks=160 top100=96.70% tokens/s=43.35
+encode tokens=103000 chunks=162 top100=96.68% tokens/s=43.35
+encode tokens=104000 chunks=164 top100=96.67% tokens/s=43.36
+encode tokens=105000 chunks=166 top100=96.66% tokens/s=43.36
+encode tokens=106000 chunks=167 top100=96.68% tokens/s=43.36
+encode tokens=107000 chunks=168 top100=96.70% tokens/s=43.36
+encode tokens=108000 chunks=170 top100=96.70% tokens/s=43.36
+encode tokens=109000 chunks=171 top100=96.69% tokens/s=43.35
+encode tokens=110000 chunks=172 top100=96.69% tokens/s=43.35
+encode tokens=111000 chunks=173 top100=96.71% tokens/s=43.35
+encode tokens=112000 chunks=175 top100=96.73% tokens/s=43.35
+encode tokens=113000 chunks=176 top100=96.74% tokens/s=43.35
+encode tokens=114000 chunks=178 top100=96.76% tokens/s=43.35
+encode tokens=115000 chunks=179 top100=96.78% tokens/s=43.35
+encode tokens=116000 chunks=180 top100=96.78% tokens/s=43.35
+encode tokens=117000 chunks=182 top100=96.77% tokens/s=43.35
+encode tokens=118000 chunks=183 top100=96.78% tokens/s=43.35
+encode tokens=119000 chunks=185 top100=96.78% tokens/s=43.35
+encode tokens=120000 chunks=186 top100=96.80% tokens/s=43.35
+encode tokens=121000 chunks=188 top100=96.79% tokens/s=43.35
+encode tokens=122000 chunks=190 top100=96.76% tokens/s=43.35
+encode tokens=123000 chunks=192 top100=96.76% tokens/s=43.36
+encode tokens=124000 chunks=194 top100=96.76% tokens/s=43.36
+encode tokens=125000 chunks=196 top100=96.75% tokens/s=43.36
+encode tokens=126000 chunks=197 top100=96.75% tokens/s=43.36
+encode tokens=127000 chunks=198 top100=96.75% tokens/s=43.36
+encode tokens=128000 chunks=199 top100=96.75% tokens/s=43.36
+encode tokens=129000 chunks=201 top100=96.74% tokens/s=43.36
+encode tokens=130000 chunks=203 top100=96.73% tokens/s=43.36
+encode tokens=131000 chunks=205 top100=96.72% tokens/s=43.36
+encode tokens=132000 chunks=207 top100=96.71% tokens/s=43.36
+encode tokens=133000 chunks=208 top100=96.71% tokens/s=43.36
+encode tokens=134000 chunks=210 top100=96.70% tokens/s=43.37
+encode tokens=135000 chunks=212 top100=96.68% tokens/s=43.37
+encode tokens=136000 chunks=214 top100=96.69% tokens/s=43.37
+encode tokens=137000 chunks=215 top100=96.71% tokens/s=43.37
+encode tokens=138000 chunks=216 top100=96.71% tokens/s=43.37
+encode tokens=139000 chunks=218 top100=96.69% tokens/s=43.37
+encode tokens=140000 chunks=219 top100=96.69% tokens/s=43.37
+encode tokens=141000 chunks=220 top100=96.69% tokens/s=43.37
+encode tokens=142000 chunks=222 top100=96.69% tokens/s=43.36
+encode tokens=143000 chunks=223 top100=96.70% tokens/s=43.37
+encode tokens=144000 chunks=224 top100=96.71% tokens/s=43.36
+encode tokens=145000 chunks=226 top100=96.72% tokens/s=43.36
+encode tokens=146000 chunks=227 top100=96.72% tokens/s=43.36
+encode tokens=147000 chunks=229 top100=96.72% tokens/s=43.36
+encode tokens=148000 chunks=230 top100=96.73% tokens/s=43.36
+encode tokens=149000 chunks=231 top100=96.73% tokens/s=43.36
+encode tokens=150000 chunks=233 top100=96.73% tokens/s=43.36
+encode tokens=151000 chunks=234 top100=96.73% tokens/s=43.36
+encode tokens=152000 chunks=236 top100=96.73% tokens/s=43.36
+encode tokens=153000 chunks=237 top100=96.74% tokens/s=43.36
+encode tokens=154000 chunks=238 top100=96.75% tokens/s=43.36
+encode tokens=155000 chunks=240 top100=96.75% tokens/s=43.36
+encode tokens=156000 chunks=241 top100=96.74% tokens/s=43.36
+encode tokens=157000 chunks=242 top100=96.73% tokens/s=43.36
+encode tokens=158000 chunks=244 top100=96.71% tokens/s=43.36
+encode tokens=159000 chunks=246 top100=96.70% tokens/s=43.36
+encode tokens=160000 chunks=247 top100=96.69% tokens/s=43.36
+encode tokens=161000 chunks=249 top100=96.69% tokens/s=43.36
+encode tokens=162000 chunks=251 top100=96.67% tokens/s=43.36
+encode tokens=163000 chunks=253 top100=96.66% tokens/s=43.36
+encode tokens=164000 chunks=254 top100=96.66% tokens/s=43.36
+encode tokens=165000 chunks=256 top100=96.66% tokens/s=43.36
+encode tokens=166000 chunks=258 top100=96.64% tokens/s=43.36
+encode tokens=167000 chunks=259 top100=96.63% tokens/s=43.37
+encode tokens=168000 chunks=261 top100=96.62% tokens/s=43.37
+encode tokens=169000 chunks=262 top100=96.63% tokens/s=43.37
+encode tokens=170000 chunks=264 top100=96.64% tokens/s=43.37
+encode tokens=171000 chunks=266 top100=96.63% tokens/s=43.37
+encode tokens=172000 chunks=267 top100=96.63% tokens/s=43.37
+encode tokens=173000 chunks=269 top100=96.61% tokens/s=43.37
+encode tokens=174000 chunks=271 top100=96.60% tokens/s=43.37
+encode tokens=175000 chunks=272 top100=96.61% tokens/s=43.37
+encode tokens=176000 chunks=274 top100=96.60% tokens/s=43.37
+encode tokens=177000 chunks=276 top100=96.60% tokens/s=43.37
+encode tokens=178000 chunks=277 top100=96.59% tokens/s=43.37
+encode tokens=179000 chunks=279 top100=96.58% tokens/s=43.37
+encode tokens=180000 chunks=281 top100=96.58% tokens/s=43.37
+encode tokens=181000 chunks=283 top100=96.57% tokens/s=43.37
+encode tokens=182000 chunks=284 top100=96.56% tokens/s=43.38
+encode tokens=183000 chunks=286 top100=96.55% tokens/s=43.37
+encode tokens=184000 chunks=287 top100=96.53% tokens/s=43.37
+encode tokens=185000 chunks=289 top100=96.53% tokens/s=43.38
+encode tokens=186000 chunks=291 top100=96.52% tokens/s=43.38
+encode tokens=187000 chunks=293 top100=96.52% tokens/s=43.38
+encode tokens=188000 chunks=295 top100=96.51% tokens/s=43.38
+encode tokens=189000 chunks=297 top100=96.50% tokens/s=43.38
+encode tokens=190000 chunks=299 top100=96.50% tokens/s=43.38
+encode tokens=191000 chunks=301 top100=96.50% tokens/s=43.38
+encode tokens=192000 chunks=302 top100=96.50% tokens/s=43.38
+encode tokens=193000 chunks=303 top100=96.50% tokens/s=43.38
+encode tokens=194000 chunks=305 top100=96.49% tokens/s=43.38
+encode tokens=195000 chunks=307 top100=96.49% tokens/s=43.38
+encode tokens=196000 chunks=310 top100=96.49% tokens/s=43.39
+encode tokens=197000 chunks=312 top100=96.48% tokens/s=43.39
+encode tokens=198000 chunks=314 top100=96.49% tokens/s=43.39
+encode tokens=199000 chunks=316 top100=96.48% tokens/s=43.39
+encode tokens=200000 chunks=318 top100=96.47% tokens/s=43.39
+encode tokens=201000 chunks=320 top100=96.47% tokens/s=43.39
+encode tokens=202000 chunks=321 top100=96.46% tokens/s=43.39
+encode tokens=203000 chunks=322 top100=96.46% tokens/s=43.39
+encode tokens=204000 chunks=324 top100=96.45% tokens/s=43.39
+encode tokens=205000 chunks=325 top100=96.45% tokens/s=43.39
+encode tokens=206000 chunks=327 top100=96.45% tokens/s=43.39
+encode tokens=207000 chunks=329 top100=96.44% tokens/s=43.39
+encode tokens=208000 chunks=331 top100=96.44% tokens/s=43.39
+encode tokens=209000 chunks=333 top100=96.44% tokens/s=43.39
+encode tokens=210000 chunks=334 top100=96.45% tokens/s=43.40
+encode tokens=211000 chunks=336 top100=96.44% tokens/s=43.40
+encode tokens=212000 chunks=338 top100=96.43% tokens/s=43.40
+encode tokens=213000 chunks=340 top100=96.43% tokens/s=43.40
+encode tokens=214000 chunks=341 top100=96.43% tokens/s=43.40
+encode tokens=215000 chunks=343 top100=96.42% tokens/s=43.40
+encode tokens=216000 chunks=345 top100=96.42% tokens/s=43.40
+encode tokens=217000 chunks=347 top100=96.41% tokens/s=43.40
+encode tokens=218000 chunks=348 top100=96.40% tokens/s=43.40
+encode tokens=219000 chunks=350 top100=96.40% tokens/s=43.40
+encode tokens=220000 chunks=351 top100=96.40% tokens/s=43.40
+encode tokens=221000 chunks=353 top100=96.41% tokens/s=43.40
+encode tokens=222000 chunks=354 top100=96.41% tokens/s=43.40
+encode tokens=223000 chunks=355 top100=96.41% tokens/s=43.40
+encode tokens=224000 chunks=357 top100=96.41% tokens/s=43.40
+encode tokens=225000 chunks=359 top100=96.40% tokens/s=43.40
+encode tokens=226000 chunks=361 top100=96.40% tokens/s=43.40
+encode tokens=227000 chunks=362 top100=96.39% tokens/s=43.40
+encode tokens=228000 chunks=364 top100=96.39% tokens/s=43.40
+encode tokens=229000 chunks=365 top100=96.40% tokens/s=43.40
+encode tokens=230000 chunks=367 top100=96.40% tokens/s=43.40
+encode tokens=231000 chunks=368 top100=96.40% tokens/s=43.40
+encode tokens=232000 chunks=370 top100=96.40% tokens/s=43.40
+encode tokens=233000 chunks=371 top100=96.41% tokens/s=43.40
+encode tokens=234000 chunks=373 top100=96.40% tokens/s=43.41
+encode tokens=235000 chunks=375 top100=96.40% tokens/s=43.41
+encode tokens=236000 chunks=377 top100=96.41% tokens/s=43.41
+encode tokens=237000 chunks=378 top100=96.40% tokens/s=43.41
+encode tokens=238000 chunks=379 top100=96.39% tokens/s=43.41
+encode tokens=239000 chunks=380 top100=96.40% tokens/s=43.40
+encode tokens=240000 chunks=381 top100=96.40% tokens/s=43.40
+encode tokens=241000 chunks=383 top100=96.41% tokens/s=43.40
+encode tokens=242000 chunks=385 top100=96.41% tokens/s=43.41
+encode tokens=243000 chunks=387 top100=96.41% tokens/s=43.41
+encode tokens=244000 chunks=389 top100=96.42% tokens/s=43.41
+encode tokens=245000 chunks=391 top100=96.43% tokens/s=43.41
+encode tokens=246000 chunks=392 top100=96.43% tokens/s=43.41
+encode tokens=247000 chunks=394 top100=96.44% tokens/s=43.41
+encode tokens=248000 chunks=396 top100=96.45% tokens/s=43.41
+encode tokens=249000 chunks=398 top100=96.45% tokens/s=43.41
+encode tokens=250000 chunks=400 top100=96.45% tokens/s=43.41
+encode tokens=251000 chunks=401 top100=96.45% tokens/s=43.41
+encode tokens=252000 chunks=402 top100=96.45% tokens/s=43.41
+encode tokens=253000 chunks=403 top100=96.44% tokens/s=43.41
+encode tokens=254000 chunks=404 top100=96.45% tokens/s=43.41
+encode tokens=255000 chunks=406 top100=96.45% tokens/s=43.41
+encode tokens=256000 chunks=407 top100=96.46% tokens/s=43.41
+encode tokens=257000 chunks=408 top100=96.47% tokens/s=43.41
+encode tokens=258000 chunks=410 top100=96.47% tokens/s=43.41
+encode tokens=259000 chunks=411 top100=96.47% tokens/s=43.41
+encode tokens=260000 chunks=412 top100=96.46% tokens/s=43.41
+encode tokens=261000 chunks=414 top100=96.46% tokens/s=43.41
+encode tokens=262000 chunks=415 top100=96.46% tokens/s=43.41
+encode tokens=263000 chunks=417 top100=96.45% tokens/s=43.41
+encode tokens=264000 chunks=418 top100=96.45% tokens/s=43.41
+encode tokens=265000 chunks=420 top100=96.45% tokens/s=43.41
+encode tokens=266000 chunks=421 top100=96.45% tokens/s=43.41
+encode tokens=267000 chunks=422 top100=96.46% tokens/s=43.41
+encode tokens=268000 chunks=423 top100=96.47% tokens/s=43.41
+encode tokens=269000 chunks=424 top100=96.47% tokens/s=43.41
+encode tokens=270000 chunks=425 top100=96.47% tokens/s=43.40
+encode tokens=271000 chunks=426 top100=96.48% tokens/s=43.40
+encode tokens=272000 chunks=427 top100=96.49% tokens/s=43.40
+encode tokens=273000 chunks=427 top100=96.50% tokens/s=43.39
+encode tokens=274000 chunks=429 top100=96.50% tokens/s=43.40
+encode tokens=275000 chunks=431 top100=96.49% tokens/s=43.40
+encode tokens=276000 chunks=432 top100=96.49% tokens/s=43.40
+encode tokens=277000 chunks=433 top100=96.49% tokens/s=43.40
+encode tokens=278000 chunks=435 top100=96.49% tokens/s=43.40
+encode tokens=279000 chunks=437 top100=96.49% tokens/s=43.40
+encode tokens=280000 chunks=439 top100=96.49% tokens/s=43.40
+encode tokens=281000 chunks=441 top100=96.48% tokens/s=43.40
+encode tokens=282000 chunks=443 top100=96.48% tokens/s=43.40
+encode tokens=283000 chunks=444 top100=96.49% tokens/s=43.40
+encode tokens=284000 chunks=446 top100=96.50% tokens/s=43.40
+encode tokens=285000 chunks=448 top100=96.50% tokens/s=43.40
+encode tokens=286000 chunks=450 top100=96.50% tokens/s=43.40
+encode tokens=287000 chunks=451 top100=96.51% tokens/s=43.40
+encode tokens=288000 chunks=452 top100=96.52% tokens/s=43.40
+encode tokens=289000 chunks=453 top100=96.52% tokens/s=43.40
+encode tokens=290000 chunks=454 top100=96.53% tokens/s=43.40
+encode tokens=291000 chunks=455 top100=96.54% tokens/s=43.40
+encode tokens=292000 chunks=456 top100=96.55% tokens/s=43.40
+encode tokens=293000 chunks=457 top100=96.55% tokens/s=43.40
+encode tokens=294000 chunks=459 top100=96.55% tokens/s=43.40
+encode tokens=295000 chunks=459 top100=96.55% tokens/s=43.39
+encode tokens=296000 chunks=461 top100=96.56% tokens/s=43.40
+encode tokens=297000 chunks=462 top100=96.56% tokens/s=43.39
+encode tokens=298000 chunks=464 top100=96.55% tokens/s=43.40
+encode tokens=299000 chunks=466 top100=96.55% tokens/s=43.40
+encode tokens=300000 chunks=467 top100=96.54% tokens/s=43.40
+encode tokens=301000 chunks=469 top100=96.54% tokens/s=43.40
+encode tokens=302000 chunks=470 top100=96.54% tokens/s=43.40
+encode tokens=303000 chunks=472 top100=96.54% tokens/s=43.40
+encode tokens=304000 chunks=474 top100=96.54% tokens/s=43.40
+encode tokens=305000 chunks=475 top100=96.54% tokens/s=43.40
+encode tokens=306000 chunks=477 top100=96.54% tokens/s=43.40
+encode tokens=307000 chunks=478 top100=96.54% tokens/s=43.40
+encode tokens=308000 chunks=480 top100=96.54% tokens/s=43.40
+encode tokens=309000 chunks=481 top100=96.54% tokens/s=43.40
+encode tokens=310000 chunks=482 top100=96.54% tokens/s=43.40
+encode tokens=311000 chunks=483 top100=96.54% tokens/s=43.40
+encode tokens=312000 chunks=485 top100=96.55% tokens/s=43.40
+encode tokens=313000 chunks=487 top100=96.55% tokens/s=43.40
+encode tokens=314000 chunks=488 top100=96.56% tokens/s=43.40
+encode tokens=315000 chunks=490 top100=96.56% tokens/s=43.40
+encode tokens=316000 chunks=492 top100=96.55% tokens/s=43.40
+encode tokens=317000 chunks=494 top100=96.55% tokens/s=43.40
+encode tokens=318000 chunks=495 top100=96.56% tokens/s=43.40
+encode tokens=319000 chunks=496 top100=96.56% tokens/s=43.40
+encode tokens=320000 chunks=497 top100=96.56% tokens/s=43.40
+encode tokens=321000 chunks=498 top100=96.57% tokens/s=43.40
+encode tokens=322000 chunks=499 top100=96.58% tokens/s=43.40
+encode tokens=323000 chunks=500 top100=96.59% tokens/s=43.40
+decode tokens=1000 chunks=2 tokens/s=43.87
+decode tokens=2000 chunks=3 tokens/s=43.71
+decode tokens=3000 chunks=5 tokens/s=43.70
+decode tokens=4000 chunks=6 tokens/s=43.74
+decode tokens=5000 chunks=8 tokens/s=43.78
+decode tokens=6000 chunks=10 tokens/s=43.80
+decode tokens=7000 chunks=11 tokens/s=43.80
+decode tokens=8000 chunks=13 tokens/s=43.82
+decode tokens=9000 chunks=15 tokens/s=43.84
+decode tokens=10000 chunks=17 tokens/s=43.84
+decode tokens=11000 chunks=18 tokens/s=43.85
+decode tokens=12000 chunks=20 tokens/s=43.86
+decode tokens=13000 chunks=22 tokens/s=43.86
+decode tokens=14000 chunks=24 tokens/s=43.86
+decode tokens=15000 chunks=25 tokens/s=43.86
+decode tokens=16000 chunks=27 tokens/s=43.87
+decode tokens=17000 chunks=29 tokens/s=43.86
+decode tokens=18000 chunks=30 tokens/s=43.86
+decode tokens=19000 chunks=31 tokens/s=43.84
+decode tokens=20000 chunks=32 tokens/s=43.82
+decode tokens=21000 chunks=34 tokens/s=43.81
+decode tokens=22000 chunks=35 tokens/s=43.81
+decode tokens=23000 chunks=37 tokens/s=43.82
+decode tokens=24000 chunks=39 tokens/s=43.83
+decode tokens=25000 chunks=41 tokens/s=43.84
+decode tokens=26000 chunks=44 tokens/s=43.85
+decode tokens=27000 chunks=46 tokens/s=43.85
+decode tokens=28000 chunks=47 tokens/s=43.86
+decode tokens=29000 chunks=50 tokens/s=43.86
+decode tokens=30000 chunks=52 tokens/s=43.87
+decode tokens=31000 chunks=54 tokens/s=43.87
+decode tokens=32000 chunks=55 tokens/s=43.87
+decode tokens=33000 chunks=56 tokens/s=43.86
+decode tokens=34000 chunks=58 tokens/s=43.85
+decode tokens=35000 chunks=59 tokens/s=43.85
+decode tokens=36000 chunks=60 tokens/s=43.84
+decode tokens=37000 chunks=62 tokens/s=43.84
+decode tokens=38000 chunks=64 tokens/s=43.84
+decode tokens=39000 chunks=65 tokens/s=43.84
+decode tokens=40000 chunks=66 tokens/s=43.83
+decode tokens=41000 chunks=68 tokens/s=43.82
+decode tokens=42000 chunks=69 tokens/s=43.83
+decode tokens=43000 chunks=70 tokens/s=43.82
+decode tokens=44000 chunks=71 tokens/s=43.81
+decode tokens=45000 chunks=73 tokens/s=43.80
+decode tokens=46000 chunks=74 tokens/s=43.80
+decode tokens=47000 chunks=75 tokens/s=43.79
+decode tokens=48000 chunks=76 tokens/s=43.79
+decode tokens=49000 chunks=77 tokens/s=43.78
+decode tokens=50000 chunks=78 tokens/s=43.77
+decode tokens=51000 chunks=80 tokens/s=43.77
+decode tokens=52000 chunks=81 tokens/s=43.77
+decode tokens=53000 chunks=82 tokens/s=43.76
+decode tokens=54000 chunks=84 tokens/s=43.76
+decode tokens=55000 chunks=85 tokens/s=43.76
+decode tokens=56000 chunks=86 tokens/s=43.76
+decode tokens=57000 chunks=88 tokens/s=43.75
+decode tokens=58000 chunks=89 tokens/s=43.75
+decode tokens=59000 chunks=90 tokens/s=43.75
+decode tokens=60000 chunks=92 tokens/s=43.75
+decode tokens=61000 chunks=94 tokens/s=43.75
+decode tokens=62000 chunks=95 tokens/s=43.75
+decode tokens=63000 chunks=96 tokens/s=43.74
+decode tokens=64000 chunks=97 tokens/s=43.74
+decode tokens=65000 chunks=98 tokens/s=43.74
+decode tokens=66000 chunks=100 tokens/s=43.73
+decode tokens=67000 chunks=101 tokens/s=43.74
+decode tokens=68000 chunks=103 tokens/s=43.74
+decode tokens=69000 chunks=105 tokens/s=43.74
+decode tokens=70000 chunks=106 tokens/s=43.74
+decode tokens=71000 chunks=107 tokens/s=43.74
+decode tokens=72000 chunks=109 tokens/s=43.74
+decode tokens=73000 chunks=110 tokens/s=43.73
+decode tokens=74000 chunks=112 tokens/s=43.74
+decode tokens=75000 chunks=114 tokens/s=43.74
+decode tokens=76000 chunks=116 tokens/s=43.74
+decode tokens=77000 chunks=117 tokens/s=43.74
+decode tokens=78000 chunks=119 tokens/s=43.75
+decode tokens=79000 chunks=121 tokens/s=43.75
+decode tokens=80000 chunks=123 tokens/s=43.75
+decode tokens=81000 chunks=125 tokens/s=43.76
+decode tokens=82000 chunks=127 tokens/s=43.76
+decode tokens=83000 chunks=129 tokens/s=43.76
+decode tokens=84000 chunks=131 tokens/s=43.76
+decode tokens=85000 chunks=132 tokens/s=43.77
+decode tokens=86000 chunks=134 tokens/s=43.77
+decode tokens=87000 chunks=136 tokens/s=43.77
+decode tokens=88000 chunks=138 tokens/s=43.77
+decode tokens=89000 chunks=139 tokens/s=43.77
+decode tokens=90000 chunks=141 tokens/s=43.77
+decode tokens=91000 chunks=142 tokens/s=43.77
+decode tokens=92000 chunks=144 tokens/s=43.77
+decode tokens=93000 chunks=145 tokens/s=43.77
+decode tokens=94000 chunks=147 tokens/s=43.77
+decode tokens=95000 chunks=148 tokens/s=43.77
+decode tokens=96000 chunks=149 tokens/s=43.77
+decode tokens=97000 chunks=151 tokens/s=43.77
+decode tokens=98000 chunks=153 tokens/s=43.77
+decode tokens=99000 chunks=154 tokens/s=43.77
+decode tokens=100000 chunks=156 tokens/s=43.77
+decode tokens=101000 chunks=158 tokens/s=43.77
+decode tokens=102000 chunks=160 tokens/s=43.78
+decode tokens=103000 chunks=162 tokens/s=43.78
+decode tokens=104000 chunks=164 tokens/s=43.78
+decode tokens=105000 chunks=166 tokens/s=43.78
+decode tokens=106000 chunks=167 tokens/s=43.78
+decode tokens=107000 chunks=168 tokens/s=43.78
+decode tokens=108000 chunks=170 tokens/s=43.78
+decode tokens=109000 chunks=171 tokens/s=43.78
+decode tokens=110000 chunks=172 tokens/s=43.77
+decode tokens=111000 chunks=173 tokens/s=43.77
+decode tokens=112000 chunks=175 tokens/s=43.77
+decode tokens=113000 chunks=176 tokens/s=43.77
+decode tokens=114000 chunks=178 tokens/s=43.77
+decode tokens=115000 chunks=179 tokens/s=43.77
+decode tokens=116000 chunks=180 tokens/s=43.77
+decode tokens=117000 chunks=182 tokens/s=43.76
+decode tokens=118000 chunks=183 tokens/s=43.77
+decode tokens=119000 chunks=185 tokens/s=43.76
+decode tokens=120000 chunks=186 tokens/s=43.77
+decode tokens=121000 chunks=188 tokens/s=43.77
+decode tokens=122000 chunks=190 tokens/s=43.77
+decode tokens=123000 chunks=192 tokens/s=43.77
+decode tokens=124000 chunks=194 tokens/s=43.77
+decode tokens=125000 chunks=196 tokens/s=43.77
+decode tokens=126000 chunks=197 tokens/s=43.77
+decode tokens=127000 chunks=198 tokens/s=43.77
+decode tokens=128000 chunks=199 tokens/s=43.77
+decode tokens=129000 chunks=201 tokens/s=43.77
+decode tokens=130000 chunks=203 tokens/s=43.77
+decode tokens=131000 chunks=205 tokens/s=43.77
+decode tokens=132000 chunks=207 tokens/s=43.77
+decode tokens=133000 chunks=208 tokens/s=43.77
+decode tokens=134000 chunks=210 tokens/s=43.78
+decode tokens=135000 chunks=212 tokens/s=43.78
+decode tokens=136000 chunks=214 tokens/s=43.78
+decode tokens=137000 chunks=215 tokens/s=43.78
+decode tokens=138000 chunks=216 tokens/s=43.78
+decode tokens=139000 chunks=218 tokens/s=43.77
+decode tokens=140000 chunks=219 tokens/s=43.77
+decode tokens=141000 chunks=220 tokens/s=43.77
+decode tokens=142000 chunks=222 tokens/s=43.77
+decode tokens=143000 chunks=223 tokens/s=43.77
+decode tokens=144000 chunks=224 tokens/s=43.77
+decode tokens=145000 chunks=226 tokens/s=43.77
+decode tokens=146000 chunks=227 tokens/s=43.77
+decode tokens=147000 chunks=229 tokens/s=43.77
+decode tokens=148000 chunks=230 tokens/s=43.77
+decode tokens=149000 chunks=231 tokens/s=43.77
+decode tokens=150000 chunks=233 tokens/s=43.76
+decode tokens=151000 chunks=234 tokens/s=43.77
+decode tokens=152000 chunks=236 tokens/s=43.77
+decode tokens=153000 chunks=237 tokens/s=43.77
+decode tokens=154000 chunks=238 tokens/s=43.76
+decode tokens=155000 chunks=240 tokens/s=43.76
+decode tokens=156000 chunks=241 tokens/s=43.76
+decode tokens=157000 chunks=242 tokens/s=43.76
+decode tokens=158000 chunks=244 tokens/s=43.76
+decode tokens=159000 chunks=246 tokens/s=43.76
+decode tokens=160000 chunks=247 tokens/s=43.76
+decode tokens=161000 chunks=249 tokens/s=43.76
+decode tokens=162000 chunks=251 tokens/s=43.76
+decode tokens=163000 chunks=253 tokens/s=43.76
+decode tokens=164000 chunks=254 tokens/s=43.76
+decode tokens=165000 chunks=256 tokens/s=43.76
+decode tokens=166000 chunks=258 tokens/s=43.77
+decode tokens=167000 chunks=259 tokens/s=43.77
+decode tokens=168000 chunks=261 tokens/s=43.77
+decode tokens=169000 chunks=262 tokens/s=43.77
+decode tokens=170000 chunks=264 tokens/s=43.77
+decode tokens=171000 chunks=266 tokens/s=43.77
+decode tokens=172000 chunks=267 tokens/s=43.77
+decode tokens=173000 chunks=269 tokens/s=43.77
+decode tokens=174000 chunks=271 tokens/s=43.77
+decode tokens=175000 chunks=272 tokens/s=43.77
+decode tokens=176000 chunks=274 tokens/s=43.77
+decode tokens=177000 chunks=276 tokens/s=43.77
+decode tokens=178000 chunks=277 tokens/s=43.77
+decode tokens=179000 chunks=279 tokens/s=43.77
+decode tokens=180000 chunks=281 tokens/s=43.77
+decode tokens=181000 chunks=283 tokens/s=43.77
+decode tokens=182000 chunks=284 tokens/s=43.77
+decode tokens=183000 chunks=286 tokens/s=43.77
+decode tokens=184000 chunks=287 tokens/s=43.77
+decode tokens=185000 chunks=289 tokens/s=43.77
+decode tokens=186000 chunks=291 tokens/s=43.77
+decode tokens=187000 chunks=293 tokens/s=43.78
+decode tokens=188000 chunks=295 tokens/s=43.78
+decode tokens=189000 chunks=297 tokens/s=43.78
+decode tokens=190000 chunks=299 tokens/s=43.78
+decode tokens=191000 chunks=301 tokens/s=43.78
+decode tokens=192000 chunks=302 tokens/s=43.78
+decode tokens=193000 chunks=303 tokens/s=43.78
+decode tokens=194000 chunks=305 tokens/s=43.78
+decode tokens=195000 chunks=307 tokens/s=43.78
+decode tokens=196000 chunks=310 tokens/s=43.78
+decode tokens=197000 chunks=312 tokens/s=43.78
+decode tokens=198000 chunks=314 tokens/s=43.78
+decode tokens=199000 chunks=316 tokens/s=43.79
+decode tokens=200000 chunks=318 tokens/s=43.79
+decode tokens=201000 chunks=320 tokens/s=43.79
+decode tokens=202000 chunks=321 tokens/s=43.79
+decode tokens=203000 chunks=322 tokens/s=43.78
+decode tokens=204000 chunks=324 tokens/s=43.79
+decode tokens=205000 chunks=325 tokens/s=43.79
+decode tokens=206000 chunks=327 tokens/s=43.79
+decode tokens=207000 chunks=329 tokens/s=43.79
+decode tokens=208000 chunks=331 tokens/s=43.79
+decode tokens=209000 chunks=333 tokens/s=43.79
+decode tokens=210000 chunks=334 tokens/s=43.79
+decode tokens=211000 chunks=336 tokens/s=43.79
+decode tokens=212000 chunks=338 tokens/s=43.79
+decode tokens=213000 chunks=340 tokens/s=43.79
+decode tokens=214000 chunks=341 tokens/s=43.79
+decode tokens=215000 chunks=343 tokens/s=43.79
+decode tokens=216000 chunks=345 tokens/s=43.79
+decode tokens=217000 chunks=347 tokens/s=43.79
+decode tokens=218000 chunks=348 tokens/s=43.79
+decode tokens=219000 chunks=350 tokens/s=43.79
+decode tokens=220000 chunks=351 tokens/s=43.79
+decode tokens=221000 chunks=353 tokens/s=43.79
+decode tokens=222000 chunks=354 tokens/s=43.79
+decode tokens=223000 chunks=355 tokens/s=43.79
+decode tokens=224000 chunks=357 tokens/s=43.79
+decode tokens=225000 chunks=359 tokens/s=43.79
+decode tokens=226000 chunks=361 tokens/s=43.79
+decode tokens=227000 chunks=362 tokens/s=43.79
+decode tokens=228000 chunks=364 tokens/s=43.79
+decode tokens=229000 chunks=365 tokens/s=43.79
+decode tokens=230000 chunks=367 tokens/s=43.79
+decode tokens=231000 chunks=368 tokens/s=43.79
+decode tokens=232000 chunks=370 tokens/s=43.79
+decode tokens=233000 chunks=371 tokens/s=43.79
+decode tokens=234000 chunks=373 tokens/s=43.79
+decode tokens=235000 chunks=375 tokens/s=43.79
+decode tokens=236000 chunks=377 tokens/s=43.79
+decode tokens=237000 chunks=378 tokens/s=43.79
+decode tokens=238000 chunks=379 tokens/s=43.79
+decode tokens=239000 chunks=380 tokens/s=43.79
+decode tokens=240000 chunks=381 tokens/s=43.79
+decode tokens=241000 chunks=383 tokens/s=43.79
+decode tokens=242000 chunks=385 tokens/s=43.79
+decode tokens=243000 chunks=387 tokens/s=43.79
+decode tokens=244000 chunks=389 tokens/s=43.79
+decode tokens=245000 chunks=391 tokens/s=43.79
+decode tokens=246000 chunks=392 tokens/s=43.79
+decode tokens=247000 chunks=394 tokens/s=43.79
+decode tokens=248000 chunks=396 tokens/s=43.79
+decode tokens=249000 chunks=398 tokens/s=43.79
+decode tokens=250000 chunks=400 tokens/s=43.79
+decode tokens=251000 chunks=401 tokens/s=43.79
+decode tokens=252000 chunks=402 tokens/s=43.79
+decode tokens=253000 chunks=403 tokens/s=43.79
+decode tokens=254000 chunks=404 tokens/s=43.79
+decode tokens=255000 chunks=406 tokens/s=43.79
+decode tokens=256000 chunks=407 tokens/s=43.79
+decode tokens=257000 chunks=408 tokens/s=43.78
+decode tokens=258000 chunks=410 tokens/s=43.78
+decode tokens=259000 chunks=411 tokens/s=43.78
+decode tokens=260000 chunks=412 tokens/s=43.78
+decode tokens=261000 chunks=414 tokens/s=43.78
+decode tokens=262000 chunks=415 tokens/s=43.78
+decode tokens=263000 chunks=417 tokens/s=43.78
+decode tokens=264000 chunks=418 tokens/s=43.78
+decode tokens=265000 chunks=420 tokens/s=43.78
+decode tokens=266000 chunks=421 tokens/s=43.78
+decode tokens=267000 chunks=422 tokens/s=43.78
+decode tokens=268000 chunks=423 tokens/s=43.78
+decode tokens=269000 chunks=424 tokens/s=43.78
+decode tokens=270000 chunks=425 tokens/s=43.78
+decode tokens=271000 chunks=426 tokens/s=43.77
+decode tokens=272000 chunks=427 tokens/s=43.77
+decode tokens=273000 chunks=427 tokens/s=43.76
+decode tokens=274000 chunks=429 tokens/s=43.77
+decode tokens=275000 chunks=431 tokens/s=43.77
+decode tokens=276000 chunks=432 tokens/s=43.77
+decode tokens=277000 chunks=433 tokens/s=43.76
+decode tokens=278000 chunks=435 tokens/s=43.76
+decode tokens=279000 chunks=437 tokens/s=43.76
+decode tokens=280000 chunks=439 tokens/s=43.77
+decode tokens=281000 chunks=441 tokens/s=43.77
+decode tokens=282000 chunks=443 tokens/s=43.77
+decode tokens=283000 chunks=444 tokens/s=43.77
+decode tokens=284000 chunks=446 tokens/s=43.77
+decode tokens=285000 chunks=448 tokens/s=43.77
+decode tokens=286000 chunks=450 tokens/s=43.77
+decode tokens=287000 chunks=451 tokens/s=43.77
+decode tokens=288000 chunks=452 tokens/s=43.77
+decode tokens=289000 chunks=453 tokens/s=43.77
+decode tokens=290000 chunks=454 tokens/s=43.77
+decode tokens=291000 chunks=455 tokens/s=43.76
+decode tokens=292000 chunks=456 tokens/s=43.76
+decode tokens=293000 chunks=457 tokens/s=43.76
+decode tokens=294000 chunks=459 tokens/s=43.76
+decode tokens=295000 chunks=459 tokens/s=43.76
+decode tokens=296000 chunks=461 tokens/s=43.76
+decode tokens=297000 chunks=462 tokens/s=43.76
+decode tokens=298000 chunks=464 tokens/s=43.76
+decode tokens=299000 chunks=466 tokens/s=43.76
+decode tokens=300000 chunks=467 tokens/s=43.76
+decode tokens=301000 chunks=469 tokens/s=43.76
+decode tokens=302000 chunks=470 tokens/s=43.76
+decode tokens=303000 chunks=472 tokens/s=43.76
+decode tokens=304000 chunks=474 tokens/s=43.76
+decode tokens=305000 chunks=475 tokens/s=43.76
+decode tokens=306000 chunks=477 tokens/s=43.76
+decode tokens=307000 chunks=478 tokens/s=43.76
+decode tokens=308000 chunks=480 tokens/s=43.76
+decode tokens=309000 chunks=481 tokens/s=43.76
+decode tokens=310000 chunks=482 tokens/s=43.76
+decode tokens=311000 chunks=483 tokens/s=43.76
+decode tokens=312000 chunks=485 tokens/s=43.76
+decode tokens=313000 chunks=487 tokens/s=43.76
+decode tokens=314000 chunks=488 tokens/s=43.76
+decode tokens=315000 chunks=490 tokens/s=43.76
+decode tokens=316000 chunks=492 tokens/s=43.76
+decode tokens=317000 chunks=494 tokens/s=43.76
+decode tokens=318000 chunks=495 tokens/s=43.76
+decode tokens=319000 chunks=496 tokens/s=43.76
+decode tokens=320000 chunks=497 tokens/s=43.76
+decode tokens=321000 chunks=498 tokens/s=43.76
+decode tokens=322000 chunks=499 tokens/s=43.75
+decode tokens=323000 chunks=500 tokens/s=43.75
+Final result
+{
+  "actual_archive_rate_percent": 10.535546875,
+  "archive": "results/arithmetic/llama2_enwik9_1mb.lmac",
+  "archive_bytes": 107884,
+  "arithmetic_bytes": 76500,
+  "chunk_size_bytes": 2048,
+  "chunks": 500,
+  "constriction_version": "0.4.2",
+  "cuda_version": "13.0",
+  "decode_seconds": 7392.1865565776825,
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "encode_seconds": 7452.810607433319,
+  "escape_bytes": 22058,
+  "escape_count": 11029,
+  "header_bytes": 6608,
+  "high_bit_mask_bytes": 2718,
+  "input": "data/enwik9",
+  "input_bytes": 1024000,
+  "input_sha256": "bddb2629712324be8293e26c92e2a57a9d0b32d51c1ca8aa3a871328f9f0dd4a",
+  "kind": "arithmetic_round_trip",
+  "model": "meta-llama/Llama-2-7b-hf",
+  "model_only_bpc": 0.7096403297311223,
+  "model_only_theoretical_rate_percent": 8.87050412163903,
+  "non_ascii_mapped": 7361,
+  "note": "The archive uses a top-k categorical range code with an escape side stream. A gzip-compressed positional high-bit mask restores the original raw bytes. Per-chunk framing metadata restores leading whitespace removed by tokenizer decoding.",
+  "reconstructed_sha256": "bddb2629712324be8293e26c92e2a57a9d0b32d51c1ca8aa3a871328f9f0dd4a",
+  "round_trip_verified": true,
+  "scored_tokens": 323415,
+  "top_k": 100,
+  "topk_hit_rate_percent": 96.58983040366093,
+  "topk_hits": 312386,
+  "torch_version": "2.13.0+cu130",
+  "transformers_version": "5.14.1"
+}

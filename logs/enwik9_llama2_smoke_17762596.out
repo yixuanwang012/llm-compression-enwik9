@@ -1,0 +1,77 @@
+Model: meta-llama/Llama-2-7b-hf
+Input: data/enwik9
+Device: cuda
+Dtype: torch.float16
+Chunk size: 2048 bytes
+Limit bytes: 1024000
+chunks=10 bytes=20480 progress=2.00% BPC=0.6790 rate=8.49% top100=96.64%
+chunks=20 bytes=40960 progress=4.00% BPC=0.7139 rate=8.92% top100=96.22%
+chunks=30 bytes=61440 progress=6.00% BPC=0.7286 rate=9.11% top100=96.06%
+chunks=40 bytes=81920 progress=8.00% BPC=0.7194 rate=8.99% top100=96.24%
+chunks=50 bytes=102400 progress=10.00% BPC=0.7057 rate=8.82% top100=96.24%
+chunks=60 bytes=122880 progress=12.00% BPC=0.7011 rate=8.76% top100=96.32%
+chunks=70 bytes=143360 progress=14.00% BPC=0.7178 rate=8.97% top100=96.39%
+chunks=80 bytes=163840 progress=16.00% BPC=0.6793 rate=8.49% top100=96.71%
+chunks=90 bytes=184320 progress=18.00% BPC=0.6844 rate=8.56% top100=96.79%
+chunks=100 bytes=204800 progress=20.00% BPC=0.6858 rate=8.57% top100=96.85%
+chunks=110 bytes=225280 progress=22.00% BPC=0.6967 rate=8.71% top100=96.79%
+chunks=120 bytes=245760 progress=24.00% BPC=0.6946 rate=8.68% top100=96.75%
+chunks=130 bytes=266240 progress=26.00% BPC=0.6842 rate=8.55% top100=96.76%
+chunks=140 bytes=286720 progress=28.00% BPC=0.6787 rate=8.48% top100=96.78%
+chunks=150 bytes=307200 progress=30.00% BPC=0.6834 rate=8.54% top100=96.73%
+chunks=160 bytes=327680 progress=32.00% BPC=0.6869 rate=8.59% top100=96.69%
+chunks=170 bytes=348160 progress=34.00% BPC=0.6880 rate=8.60% top100=96.70%
+chunks=180 bytes=368640 progress=36.00% BPC=0.6813 rate=8.52% top100=96.78%
+chunks=190 bytes=389120 progress=38.00% BPC=0.6835 rate=8.54% top100=96.76%
+chunks=200 bytes=409600 progress=40.00% BPC=0.6873 rate=8.59% top100=96.75%
+chunks=210 bytes=430080 progress=42.00% BPC=0.6878 rate=8.60% top100=96.70%
+chunks=220 bytes=450560 progress=44.00% BPC=0.6863 rate=8.58% top100=96.68%
+chunks=230 bytes=471040 progress=46.00% BPC=0.6860 rate=8.58% top100=96.72%
+chunks=240 bytes=491520 progress=48.00% BPC=0.6852 rate=8.56% top100=96.75%
+chunks=250 bytes=512000 progress=50.00% BPC=0.6929 rate=8.66% top100=96.67%
+chunks=260 bytes=532480 progress=52.00% BPC=0.6966 rate=8.71% top100=96.62%
+chunks=270 bytes=552960 progress=54.00% BPC=0.6979 rate=8.72% top100=96.60%
+chunks=280 bytes=573440 progress=56.00% BPC=0.6984 rate=8.73% top100=96.58%
+chunks=290 bytes=593920 progress=58.00% BPC=0.7035 rate=8.79% top100=96.52%
+chunks=300 bytes=614400 progress=60.00% BPC=0.7027 rate=8.78% top100=96.50%
+chunks=310 bytes=634880 progress=62.00% BPC=0.7043 rate=8.80% top100=96.49%
+chunks=320 bytes=655360 progress=64.00% BPC=0.7036 rate=8.80% top100=96.46%
+chunks=330 bytes=675840 progress=66.00% BPC=0.7068 rate=8.84% top100=96.44%
+chunks=340 bytes=696320 progress=68.00% BPC=0.7096 rate=8.87% top100=96.43%
+chunks=350 bytes=716800 progress=70.00% BPC=0.7127 rate=8.91% top100=96.40%
+chunks=360 bytes=737280 progress=72.00% BPC=0.7140 rate=8.93% top100=96.40%
+chunks=370 bytes=757760 progress=74.00% BPC=0.7139 rate=8.92% top100=96.41%
+chunks=380 bytes=778240 progress=76.00% BPC=0.7160 rate=8.95% top100=96.40%
+chunks=390 bytes=798720 progress=78.00% BPC=0.7107 rate=8.88% top100=96.43%
+chunks=400 bytes=819200 progress=80.00% BPC=0.7081 rate=8.85% top100=96.45%
+chunks=410 bytes=839680 progress=82.00% BPC=0.7108 rate=8.88% top100=96.47%
+chunks=420 bytes=860160 progress=84.00% BPC=0.7132 rate=8.91% top100=96.44%
+chunks=430 bytes=880640 progress=86.00% BPC=0.7102 rate=8.88% top100=96.49%
+chunks=440 bytes=901120 progress=88.00% BPC=0.7107 rate=8.88% top100=96.48%
+chunks=450 bytes=921600 progress=90.00% BPC=0.7083 rate=8.85% top100=96.50%
+chunks=460 bytes=942080 progress=92.00% BPC=0.7060 rate=8.82% top100=96.55%
+chunks=470 bytes=962560 progress=94.00% BPC=0.7083 rate=8.85% top100=96.54%
+chunks=480 bytes=983040 progress=96.00% BPC=0.7099 rate=8.87% top100=96.54%
+chunks=490 bytes=1003520 progress=98.00% BPC=0.7103 rate=8.88% top100=96.55%
+chunks=500 bytes=1024000 progress=100.00% BPC=0.7096 rate=8.87% top100=96.59%
+
+Final metrics
+{
+  "bpc": 0.7096375471353531,
+  "bytes_per_second": 5988.066190939743,
+  "chunks_processed": 500,
+  "elapsed_seconds": 171.0067937374115,
+  "non_ascii_mapped": 7361,
+  "processed_bytes": 1024000,
+  "scored_tokens": 323415,
+  "skipped_chunks": 0,
+  "theoretical_compressed_bytes": 90833.6060333252,
+  "theoretical_compression_rate_percent": 8.870469339191914,
+  "topk_hit_rate_percent": 96.58921200315385,
+  "topk_hits": 312384,
+  "topk_total": 323415,
+  "total_bits": 726668.8482666016,
+  "truncated_chunks": 0
+}
+Result written to: results/llama2_7b_enwik9_smoke.json
+Checkpoint written to: results/llama2_7b_enwik9_smoke_checkpoint.json

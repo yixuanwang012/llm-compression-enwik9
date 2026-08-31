@@ -1,0 +1,67 @@
+Loading meta-llama/Llama-2-7b-hf on cuda with torch.float16
+encode tokens=100 chunks=1 top100=99.00% tokens/s=16.88
+encode tokens=200 chunks=1 top100=98.50% tokens/s=24.26
+encode tokens=300 chunks=1 top100=99.00% tokens/s=28.46
+encode tokens=400 chunks=1 top100=99.25% tokens/s=31.14
+encode tokens=500 chunks=1 top100=99.40% tokens/s=32.97
+encode tokens=600 chunks=1 top100=99.50% tokens/s=34.28
+encode tokens=700 chunks=1 top100=99.43% tokens/s=35.26
+encode tokens=800 chunks=2 top100=98.50% tokens/s=36.13
+encode tokens=900 chunks=2 top100=98.56% tokens/s=36.87
+encode tokens=1000 chunks=2 top100=98.50% tokens/s=37.46
+encode tokens=1100 chunks=2 top100=98.55% tokens/s=37.93
+encode tokens=1200 chunks=2 top100=98.58% tokens/s=38.32
+encode tokens=1300 chunks=2 top100=98.62% tokens/s=38.64
+encode tokens=1400 chunks=2 top100=98.71% tokens/s=38.90
+encode tokens=1500 chunks=2 top100=98.80% tokens/s=39.12
+decode tokens=100 chunks=1 tokens/s=44.80
+decode tokens=200 chunks=1 tokens/s=44.53
+decode tokens=300 chunks=1 tokens/s=44.31
+decode tokens=400 chunks=1 tokens/s=44.15
+decode tokens=500 chunks=1 tokens/s=44.00
+decode tokens=600 chunks=1 tokens/s=43.84
+decode tokens=700 chunks=1 tokens/s=43.70
+decode tokens=800 chunks=2 tokens/s=43.74
+decode tokens=900 chunks=2 tokens/s=43.82
+decode tokens=1000 chunks=2 tokens/s=43.84
+decode tokens=1100 chunks=2 tokens/s=43.84
+decode tokens=1200 chunks=2 tokens/s=43.81
+decode tokens=1300 chunks=2 tokens/s=43.76
+decode tokens=1400 chunks=2 tokens/s=43.70
+decode tokens=1500 chunks=2 tokens/s=43.63
+Final result
+{
+  "actual_archive_rate_percent": 18.359375,
+  "archive": "results/arithmetic/llama2_enwik9_4kb.lmac",
+  "archive_bytes": 752,
+  "arithmetic_bytes": 212,
+  "chunk_size_bytes": 2048,
+  "chunks": 2,
+  "constriction_version": "0.4.2",
+  "cuda_version": "13.0",
+  "decode_seconds": 36.23490929603577,
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "encode_seconds": 40.21826434135437,
+  "escape_bytes": 44,
+  "escape_count": 22,
+  "header_bytes": 470,
+  "high_bit_mask_bytes": 26,
+  "input": "data/enwik9",
+  "input_bytes": 4096,
+  "input_sha256": "652ed0541c8b9e2d8194c2a1cd20a3ea516efaa542082535c0ef57267e1ca49e",
+  "kind": "arithmetic_round_trip",
+  "model": "meta-llama/Llama-2-7b-hf",
+  "model_only_bpc": 0.4695007466472614,
+  "model_only_theoretical_rate_percent": 5.868759333090767,
+  "non_ascii_mapped": 0,
+  "note": "The archive uses a top-k categorical range code with an escape side stream. A gzip-compressed positional high-bit mask restores the original raw bytes. Per-chunk framing metadata restores leading whitespace removed by tokenizer decoding.",
+  "reconstructed_sha256": "652ed0541c8b9e2d8194c2a1cd20a3ea516efaa542082535c0ef57267e1ca49e",
+  "round_trip_verified": true,
+  "scored_tokens": 1579,
+  "top_k": 100,
+  "topk_hit_rate_percent": 98.60671310956302,
+  "topk_hits": 1557,
+  "torch_version": "2.13.0+cu130",
+  "transformers_version": "5.14.1"
+}

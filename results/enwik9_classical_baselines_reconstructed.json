@@ -1,0 +1,39 @@
+{
+  "input": "data/enwik9",
+  "input_bytes": 1000000000,
+  "input_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+  "scope": "Unchunked lossless compression of the original enwik9 byte stream.",
+  "provenance": {
+    "status": "reconstructed_from_archives",
+    "note": "The original result JSON was not present on CSF. Sizes were read from the retained archives and round-trip verification was repeated locally by hashing each decompressed byte stream. Original compression and verification timings are unavailable."
+  },
+  "methods": {
+    "gzip": {
+      "archive": "archives/enwik9.gz",
+      "compressed_bytes": 322591988,
+      "compression_rate_percent": 32.2591988,
+      "compression_seconds": null,
+      "verification_seconds": null,
+      "decoded_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+      "round_trip_verified": true
+    },
+    "bz2": {
+      "archive": "archives/enwik9.bz2",
+      "compressed_bytes": 253977891,
+      "compression_rate_percent": 25.3977891,
+      "compression_seconds": null,
+      "verification_seconds": null,
+      "decoded_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+      "round_trip_verified": true
+    },
+    "lzma2_xz": {
+      "archive": "archives/enwik9.xz",
+      "compressed_bytes": 213370900,
+      "compression_rate_percent": 21.33709,
+      "compression_seconds": null,
+      "verification_seconds": null,
+      "decoded_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+      "round_trip_verified": true
+    }
+  }
+}
